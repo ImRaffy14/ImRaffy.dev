@@ -2,7 +2,9 @@ import { useState } from 'react';
 import Header from './Header.jsx'
 import Contents from './Contents.jsx'
 import Skills from './Skills.jsx'
+import Projects from './Projects.jsx'
 import Footer from './Footer.jsx'
+
 
 function App() {
   const [isLight, setIsLight] = useState(false);
@@ -26,8 +28,14 @@ function App() {
         </section>
 
         <section>
+          <Projects isLight={isLight}/>
+        </section>
+
+         <section>
           <Footer isLight={isLight}/>
         </section>
+
+
     </>
   )
 }

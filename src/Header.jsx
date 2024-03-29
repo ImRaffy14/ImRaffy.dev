@@ -57,7 +57,16 @@ function Header({toggleLightMode, isLight}) {
             >
              <li className="block px-4 py-2 btn btn-ghost text-white" onClick={toggleMenu}>Skills </li>
             </Link>
-              <a href="#" className="block px-4 py-2 btn btn-ghost text-white" onClick={toggleMenu}>Projects</a>
+
+            <Link
+              to="section3"
+              smooth={true}
+              duration={500}
+              spy={true}
+            >
+             <li className="block px-4 py-2 btn btn-ghost text-white" onClick={toggleMenu}>Projects </li>
+            </Link>
+
               <a href="#" className="block px-4 py-2 btn btn-ghost text-white" onClick={toggleMenu}>Certificates</a>
             </ul>
           </div>
