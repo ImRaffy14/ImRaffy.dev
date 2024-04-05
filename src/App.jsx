@@ -3,6 +3,7 @@ import Header from './Header.jsx'
 import Contents from './Contents.jsx'
 import Skills from './Skills.jsx'
 import Projects from './Projects.jsx'
+import Education from './Education.jsx'
 import Footer from './Footer.jsx'
 
 
@@ -31,7 +32,11 @@ function App() {
           <Projects isLight={isLight}/>
         </section>
 
-         <section>
+        <section>
+          <Education isLight={isLight}/>
+        </section>
+
+        <section>
           <Footer isLight={isLight}/>
         </section>
 

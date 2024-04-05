@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import React from 'react';
 import { Link } from 'react-scroll';
-
+import { SiCodersrank } from "react-icons/si";
 
 function Header({toggleLightMode, isLight}) {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,9 +32,8 @@ function Header({toggleLightMode, isLight}) {
               duration={500}
               spy={true}
             >
-              <span className="text-xl btn btn-ghost font-russoOne">
-              <span className="-ml-2 text-cyan-700">ImRaffy</span>
-              <span className="-ml-2 text-red-600">.dev</span>
+              <span className="text-4xl btn btn-ghost font-russoOne">
+              <SiCodersrank />
               </span>
               </Link>
             </div>
@@ -67,7 +66,16 @@ function Header({toggleLightMode, isLight}) {
              <li className="block px-4 py-2 btn btn-ghost text-white" onClick={toggleMenu}>Projects </li>
             </Link>
 
-              <a href="#" className="block px-4 py-2 btn btn-ghost text-white" onClick={toggleMenu}>Certificates</a>
+
+            <Link
+              to="section4"
+              smooth={true}
+              duration={500}
+              spy={true}
+            >
+             <li className="block px-4 py-2 btn btn-ghost text-white" onClick={toggleMenu}>Education</li>
+            </Link>
+            
             </ul>
           </div>
         )}

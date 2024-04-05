@@ -18,7 +18,8 @@ return(
     </div>
   </nav> 
   <aside>
-    <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+    <p>Designed & Built by Raffy Uanan</p>
+    <p>Copyright © 2024 - All right reserved</p>
   </aside>
 </footer>
 )
