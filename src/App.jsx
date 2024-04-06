@@ -5,6 +5,7 @@ import Skills from './Skills.jsx'
 import Projects from './Projects.jsx'
 import Education from './Education.jsx'
 import Footer from './Footer.jsx'
+import Contacts from './Contacts.jsx'
 
 
 function App() {
@@ -34,6 +35,10 @@ function App() {
 
         <section>
           <Education isLight={isLight}/>
+        </section>
+
+        <section>
+          <Contacts isLight={isLight}/>
         </section>
 
         <section>

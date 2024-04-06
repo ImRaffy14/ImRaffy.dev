@@ -113,6 +113,9 @@ function Skills ({isLight}){
                 </div>
             </div>
           </div>
+            <div className="my-[250px]"> 
+                <section id="section3"></section>
+            </div> 
         </div>
         </section>
        
