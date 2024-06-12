@@ -16,7 +16,7 @@ function Projects ({isLight}){
                 <div className="card w-[280px] h-[280px] lg:w-[380px] lg:h-[280px] bg-neutral-800 hover:scale-105 duration-500 cursor-pointer my-4 ml-0 sm:ml-4" onClick={()=>document.getElementById('my_modal_1').showModal()}>
                     <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
                     <div className="card-body">
-                        <h2 className="text-center font-bold text-lg text-neutral-200">Life hack</h2>
+                        <h2 className="text-center font-bold text-lg text-neutral-200">Under Construction!!!</h2>
                     </div>
                 </div>
                 
@@ -27,8 +27,8 @@ function Projects ({isLight}){
                         <form method="dialog">
                             <button className="btn btn-sm btn-circle absolute right-3 top-3">✕</button>
                         </form>
-                            <h2 className="card-title">New album is released!</h2>
-                            <p>Click the button to listen on Spotiwhy app.</p>
+                            <h2 className="card-title">Under Construction!!</h2>
+                            <p>................</p>
                                 <div className="card-actions justify-end">
                                 </div>
                         </div>
@@ -38,7 +38,7 @@ function Projects ({isLight}){
                 <div className="card w-[280px] h-[280px] lg:w-[380px] lg:h-[280px] bg-neutral-800 hover:scale-105 duration-500 cursor-pointer my-4" onClick={()=>document.getElementById('my_modal_2').showModal()}>
                     <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
                     <div className="card-body">
-                        <h2 className="text-center font-bold text-lg text-neutral-200">Life hack</h2>
+                        <h2 className="text-center font-bold text-lg text-neutral-200">Under Construction!!!</h2>
                     </div>
                 </div>
 
@@ -49,8 +49,8 @@ function Projects ({isLight}){
                         <form method="dialog">
                             <button className="btn btn-sm btn-circle absolute right-3 top-3">✕</button>
                         </form>
-                            <h2 className="card-title">New album is released!</h2>
-                            <p>Click the button to listen on Spotiwhy app.</p>
+                            <h2 className="card-title">Under Construction!!</h2>
+                            <p>................</p>
                                 <div className="card-actions justify-end">
                                 </div>
                         </div>
@@ -60,7 +60,7 @@ function Projects ({isLight}){
                 <div className="card w-[280px] h-[280px] lg:w-[380px] lg:h-[280px] bg-neutral-800 hover:scale-105 duration-500 cursor-pointer my-4" onClick={()=>document.getElementById('my_modal_3').showModal()}>
                     <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
                     <div className="card-body">
-                        <h2 className="text-center font-bold text-lg text-neutral-200">Life hack</h2>
+                        <h2 className="text-center font-bold text-lg text-neutral-200">Under Construction!!!</h2>
                     </div>
                 </div>
 
@@ -71,8 +71,8 @@ function Projects ({isLight}){
                         <form method="dialog">
                             <button className="btn btn-sm btn-circle absolute right-3 top-3">✕</button>
                         </form>
-                            <h2 className="card-title">New album is released!</h2>
-                            <p>Click the button to listen on Spotiwhy app.</p>
+                            <h2 className="card-title">Under Construction!!</h2>
+                            <p>................</p>
                                 <div className="card-actions justify-end">
                                 </div>
                         </div>
@@ -82,7 +82,7 @@ function Projects ({isLight}){
                 <div className="card w-[280px] h-[280px] lg:w-[380px] lg:h-[280px] bg-neutral-800 hover:scale-105 duration-500 cursor-pointer my-4" onClick={()=>document.getElementById('my_modal_4').showModal()}>
                     <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
                     <div className="card-body">
-                        <h2 className="text-center font-bold text-lg text-neutral-200">Life hack</h2>
+                        <h2 className="text-center font-bold text-lg text-neutral-200">Under Construction!!!</h2>
                     </div>
                 </div>
 
@@ -93,8 +93,8 @@ function Projects ({isLight}){
                         <form method="dialog">
                             <button className="btn btn-sm btn-circle absolute right-3 top-3">✕</button>
                         </form>
-                            <h2 className="card-title">New album is released!</h2>
-                            <p>Click the button to listen on Spotiwhy app.</p>
+                            <h2 className="card-title">Under Construction!!</h2>
+                            <p>................</p>
                                 <div className="card-actions justify-end">
                                 </div>
                         </div>
@@ -104,7 +104,7 @@ function Projects ({isLight}){
                 <div className="card w-[280px] h-[280px] lg:w-[380px] lg:h-[280px] bg-neutral-800 hover:scale-105 duration-500 cursor-pointer my-4" onClick={()=>document.getElementById('my_modal_5').showModal()}>
                     <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
                     <div className="card-body">
-                        <h2 className="text-center font-bold text-lg text-neutral-200">Life hack</h2>
+                        <h2 className="text-center font-bold text-lg text-neutral-200">Under Construction!!!</h2>
                     </div>
                 </div>
 
@@ -115,8 +115,8 @@ function Projects ({isLight}){
                         <form method="dialog">
                             <button className="btn btn-sm btn-circle absolute right-3 top-3">✕</button>
                         </form>
-                            <h2 className="card-title">New album is released!</h2>
-                            <p>Click the button to listen on Spotiwhy app.</p>
+                            <h2 className="card-title">Under Construction!!</h2>
+                            <p>................</p>
                                 <div className="card-actions justify-end">
                                 </div>
                         </div>
@@ -126,7 +126,7 @@ function Projects ({isLight}){
                 <div className="card w-[280px] h-[280px] lg:w-[380px] lg:h-[280px] bg-neutral-800 hover:scale-105 duration-500 cursor-pointer my-4" onClick={()=>document.getElementById('my_modal_6').showModal()}>
                     <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
                     <div className="card-body">
-                        <h2 className="text-center font-bold text-lg text-neutral-200">Life hack</h2>
+                        <h2 className="text-center font-bold text-lg text-neutral-200">Under Construction!!!</h2>
                     </div>
                 </div>
 
@@ -137,8 +137,8 @@ function Projects ({isLight}){
                         <form method="dialog">
                             <button className="btn btn-sm btn-circle absolute right-3 top-3">✕</button>
                         </form>
-                            <h2 className="card-title">New album is released!</h2>
-                            <p>Click the button to listen on Spotiwhy app.</p>
+                            <h2 className="card-title">Under Construction!!</h2>
+                            <p>................</p>
                                 <div className="card-actions justify-end">
                                 </div>
                         </div>

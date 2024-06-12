@@ -1,7 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import React from 'react';
 import { Link } from 'react-scroll';
 import { SiCodersrank } from "react-icons/si";
+
 
 function Header({toggleLightMode, isLight}) {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +11,8 @@ function Header({toggleLightMode, isLight}) {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-  
+
+
 
   return (
     <div className="fixed top-5 left-0 right-0 z-10">

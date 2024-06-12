@@ -1,5 +1,6 @@
 import giphy from './assets/giphy.gif'
 import { RiContactsLine } from "react-icons/ri";
+import { Link } from 'react-scroll'
 
 function Contents({isLight}) {
   return (
@@ -12,7 +13,14 @@ function Contents({isLight}) {
           <p className={`text-xl md:text-xl text-center lg:text-left xl:mr-32 lg:mr-10 md:mx-32 lg:mx-0 ${isLight ? 'text-gray-800' : ''}`}>A passionate third-year BSIT major in Information Management student, currently honing my skills to become a future Full Stack Developer. Based in the Philippines, I'm on an exciting journey to merge my love for technology with my knack for innovation.</p>
           <br/>
           <div className="flex justify-center lg:justify-start space-x-5">
-            <button className="btn h-[60px] bg-white px-4 py-4 rounded-full text-black tracking-wider shadow-xl hover:bg-teal-500 hover:scale-105 duration-500 hover:ring-1 font-mono w-[150px]"><RiContactsLine /> Contact</button>
+          <Link
+              to="section5"
+              smooth={true}
+              duration={500}
+              spy={true}
+            >
+              <button className="btn h-[60px] bg-white px-4 py-4 rounded-full text-black tracking-wider shadow-xl hover:bg-teal-500 hover:scale-105 duration-500 hover:ring-1 font-mono w-[150px]" ><RiContactsLine /> Contact</button>
+            </Link>
 
             <button
             className="cursor-pointer flex justify-center bg-gray-800 px-4 py-4 rounded-full text-white tracking-wider shadow-xl hover:bg-gray-900 hover:scale-105 duration-500 hover:ring-1 font-mono w-[150px]"

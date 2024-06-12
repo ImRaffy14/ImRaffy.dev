@@ -70,7 +70,10 @@ function Education({isLight}){
 
                 </ul>
             </div>
+            <section id="section5">
+            </section>
         </div>
+        
     )
 }
 
