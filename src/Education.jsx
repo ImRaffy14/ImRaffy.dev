@@ -5,7 +5,7 @@ import BCP from './assets/bcp.png'
 function Education({isLight}){
 
     return(
-        <div className={`h-[1550px] sm:h-[1400px] w-full  ${isLight ? `bg-gradient-to-b from-gray-300 to-slate-200 text-gray-800`:`bg-gradient-to-b from-gray-800 to-neutral-800 text-neutral-200`}`}>
+        <div className={`h-[1400px] sm:h-[1350px] w-full  ${isLight ? `bg-gradient-to-b from-gray-300 to-slate-200 text-gray-800`:`bg-gradient-to-b from-gray-800 to-neutral-800 text-neutral-200`}`}>
           <div className="max-w-screen-xl mx-auto items-center justify-center px-4">
             <div className="flex flex-col justify-center items-center mx-5 font-secularOne">
               <h1 className={`text-5xl  font-bold ${isLight ? 'text-gray-800' : 'text-neutral-200'} `}>Education</h1>
