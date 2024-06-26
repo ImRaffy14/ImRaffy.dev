@@ -70,7 +70,7 @@ function Projects ({isLight}){
                                 </div>
                             </div>
                         </figure>
-                        <div className="card-body w-full sm:w-[400px] overflow-auto sm:overflow-hidden">
+                        <div className="card-body h-1 sm:h-full w-full sm:w-[400px] overflow-auto sm:overflow-hidden">
                         <form method="dialog">
                             <button className="btn btn-sm btn-circle absolute right-3 top-3">✕</button>
                         </form>
@@ -137,13 +137,13 @@ function Projects ({isLight}){
                                 </div>
                             </div>
                         </figure>
-                        <div className="card-body w-full sm:w-[400px] overflow-auto">
+                        <div className="card-body h-1 sm:h-full w-full sm:w-[400px] overflow-auto sm:overflow-hidden">
                         <form method="dialog">
                             <button className="btn btn-sm btn-circle absolute right-3 top-3">✕</button>
                         </form>
                             <h2 className="card-title font-bold">Pilot Area Community Chapter System</h2>
                             <p className="mt-4">The Pilot Area Community Chapter System is a private system I developed to manage residents, funds, and attendance for our community chapter. This project focuses on streamlining administrative tasks and ensuring efficient management of community resources. Key features include resident database management, financial tracking, and attendance monitoring. The system demonstrates my proficiency in creating tailored solutions for specific organizational needs.</p>
-                                <div className="flex flex-wrap gap-2 mt-4 mb-4 sm:mb-[70px]">
+                                <div className="flex flex-wrap gap-2 mt-2 mb-4 sm:mb-[70px]">
                                     <button className="btn btn-active btn-neutral">HTML</button>
                                     <button className="btn btn-active btn-neutral">CSS</button>
                                     <button className="btn btn-active btn-neutral">Bootstrap</button>
