@@ -6,6 +6,8 @@ import paccImg from './assets/projects/pacc/pacc.png'
 import paccImg1 from './assets/projects/pacc/pacc1.png'
 import paccImg2 from './assets/projects/pacc/pacc2.png'
 import paccImg3 from './assets/projects/pacc/pacc3.png'
+import rpsImg from './assets/projects/Rock-Paper-Scissors/rps.png'
+import rpsImg1 from './assets/projects/Rock-Paper-Scissors/rps1.png'
 
 function Projects ({isLight}){
 
@@ -90,7 +92,7 @@ function Projects ({isLight}){
 
                 <div className="card w-[280px] h-[280px] lg:w-[380px] lg:h-[280px] bg-neutral-800 hover:scale-105 duration-500 cursor-pointer my-4" onClick={()=>document.getElementById('my_modal_2').showModal()}>
                     <figure><img src={paccImg} alt="car!"/></figure>
-                    <div className="card-body">
+                    <div className="card-body h-[1px]">
                         <h2 className="text-center font-bold text-lg text-neutral-200">Pilot Area Community Chapter System</h2>
                     </div>
                 </div>
@@ -142,7 +144,7 @@ function Projects ({isLight}){
                             <button className="btn btn-sm btn-circle absolute right-3 top-3">✕</button>
                         </form>
                             <h2 className="card-title font-bold">Pilot Area Community Chapter System</h2>
-                            <p className="mt-4">The Pilot Area Community Chapter System is a private system I developed to manage residents, funds, and attendance for our community chapter. This project focuses on streamlining administrative tasks and ensuring efficient management of community resources. Key features include resident database management, financial tracking, and attendance monitoring. The system demonstrates my proficiency in creating tailored solutions for specific organizational needs.</p>
+                            <p className="mt-2">The Pilot Area Community Chapter System is a private system I developed to manage residents, funds, and attendance for our community chapter. This project focuses on streamlining administrative tasks and ensuring efficient management of community resources. Key features include resident database management, financial tracking, and attendance monitoring. The system demonstrates my proficiency in creating tailored solutions for specific organizational needs.</p>
                                 <div className="flex flex-wrap gap-2 mt-2 mb-4 sm:mb-[70px]">
                                     <button className="btn btn-active btn-neutral">HTML</button>
                                     <button className="btn btn-active btn-neutral">CSS</button>
@@ -158,23 +160,37 @@ function Projects ({isLight}){
                 </dialog>
 
                 <div className="card w-[280px] h-[280px] lg:w-[380px] lg:h-[280px] bg-neutral-800 hover:scale-105 duration-500 cursor-pointer my-4" onClick={()=>document.getElementById('my_modal_3').showModal()}>
-                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
+                    <figure><img src={rpsImg} alt="car!"/></figure>
                     <div className="card-body">
-                        <h2 className="text-center font-bold text-lg text-neutral-200">Under Construction!!!</h2>
+                        <h2 className="text-center font-bold text-lg text-neutral-200">Rock Paper Scissors Game</h2>
                     </div>
                 </div>
 
                 <dialog id="my_modal_3" className="modal card-bottom sm:card-middle">
-                    <div className="card lg:card-side bg-gray-800 shadow-xl">
-                        <figure><img src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/></figure>
-                        <div className="card-body">
+                    <div className="card lg:card-side h-[550px] bg-gray-800 shadow-xl">
+                        <figure>
+                        <div className="carousel w-full sm:w-[900px]">
+                                <div id="rps1" className="carousel-item relative w-full">
+                                    <img
+                                    src={rpsImg1}
+                                    className="w-full" />
+                                </div>
+                            </div>
+                        </figure>
+                        <div className="card-body h-1 sm:h-full w-full sm:w-[400px] overflow-auto sm:overflow-hidden">
                         <form method="dialog">
                             <button className="btn btn-sm btn-circle absolute right-3 top-3">✕</button>
                         </form>
-                            <h2 className="card-title">Under Construction!!</h2>
-                            <p>................</p>
-                                <div className="card-actions justify-end">
+                            <h2 className="card-title font-bold">Rock Paper Scissors Game</h2>
+                            <p className="mt-2">This Rock Paper Scissors game was developed to practice my JavaScript skills, with a focus on essential concepts such as DOM manipulation, functions, and various JavaScript methods, resulting in a responsive and interactive experience that showcases my ability to create dynamic web applications</p>
+                            <div className="flex flex-wrap gap-2 mb-4 sm:mb-[130px]">
+                                    <button className="btn btn-active btn-neutral">HTML</button>
+                                    <button className="btn btn-active btn-neutral">CSS</button>
+                                    <button className="btn btn-active btn-neutral">Javascript</button>
                                 </div>
+                            <div className="card-actions justify-end">
+                            <a href="https://imraffy14.github.io/Rock-Paper-Scissors/ROCK-PAPER-SCISSORS.html"><button className="btn btn-active h-[50px] w-[150px]" >Demo</button></a>
+                            </div>
                         </div>
                     </div>
                 </dialog>
