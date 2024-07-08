@@ -8,6 +8,11 @@ import paccImg2 from './assets/projects/pacc/pacc2.png'
 import paccImg3 from './assets/projects/pacc/pacc3.png'
 import rpsImg from './assets/projects/Rock-Paper-Scissors/rps.png'
 import rpsImg1 from './assets/projects/Rock-Paper-Scissors/rps1.png'
+import colorGameImg from './assets/projects/colorGame/colorgame1.png'
+import posImg1 from './assets/projects/POS/pos1.png'
+import posImg2 from './assets/projects/POS/pos2.png'
+import posImg3 from './assets/projects/POS/pos3.png'
+
 
 function Projects ({isLight}){
 
@@ -169,7 +174,7 @@ function Projects ({isLight}){
                 <dialog id="my_modal_3" className="modal card-bottom sm:card-middle">
                     <div className="card lg:card-side h-[550px] bg-gray-800 shadow-xl">
                         <figure>
-                        <div className="carousel w-full sm:w-[900px]">
+                            <div className="carousel w-full sm:w-[900px]">
                                 <div id="rps1" className="carousel-item relative w-full">
                                     <img
                                     src={rpsImg1}
@@ -196,70 +201,103 @@ function Projects ({isLight}){
                 </dialog>
 
                 <div className="card w-[280px] h-[280px] lg:w-[380px] lg:h-[280px] bg-neutral-800 hover:scale-105 duration-500 cursor-pointer my-4" onClick={()=>document.getElementById('my_modal_4').showModal()}>
-                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
+                    <figure><img src={colorGameImg} alt="Color Game"/></figure>
                     <div className="card-body">
-                        <h2 className="text-center font-bold text-lg text-neutral-200">Under Construction!!!</h2>
+                        <h2 className="text-center font-bold text-lg text-neutral-200">Color Game</h2>
                     </div>
                 </div>
 
                 <dialog id="my_modal_4" className="modal card-bottom sm:card-middle">
                     <div className="card lg:card-side bg-gray-800 shadow-xl">
-                        <figure><img src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/></figure>
-                        <div className="card-body">
+                    <figure>
+                            <div className="carousel w-full sm:w-[900px]">
+                                <div id="rps1" className="carousel-item relative w-full">
+                                    <img
+                                    src={colorGameImg}
+                                    className="w-full" />
+                                </div>
+                            </div>
+                        </figure>
+                        <div className="card-body h-1 sm:h-full w-full sm:w-[400px] overflow-auto sm:overflow-hidden">
                         <form method="dialog">
                             <button className="btn btn-sm btn-circle absolute right-3 top-3">✕</button>
                         </form>
-                            <h2 className="card-title">Under Construction!!</h2>
-                            <p>................</p>
-                                <div className="card-actions justify-end">
+                            <h2 className="card-title font-bold">Color Game</h2>
+                            <p className="my-2">I developed a Color Game using React.js to practice and enhance my skills with hooks and other React features. In this game, when a user chooses a color, the game generates three random colors. If the user's chosen color matches one of the three generated colors, the user wins. This project helped me improve my understanding of component-based architecture, state management, and event handling in React.</p>
+                            <div className="flex flex-wrap gap-2 mb-4 sm:mb-[130px]">
+                                    <button className="btn btn-active btn-neutral">HTML</button>
+                                    <button className="btn btn-active btn-neutral">CSS</button>
+                                    <button className="btn btn-active btn-neutral">Javascript</button>
+                                    <button className="btn btn-active btn-neutral">React JS</button>
                                 </div>
+                            <div className="card-actions justify-end">
+                            <a href="https://imraffy14.github.io/color-game/"><button className="btn btn-active h-[50px] w-[150px]" >Demo</button></a>
+                            </div>
                         </div>
                     </div>
                 </dialog>
 
                 <div className="card w-[280px] h-[280px] lg:w-[380px] lg:h-[280px] bg-neutral-800 hover:scale-105 duration-500 cursor-pointer my-4" onClick={()=>document.getElementById('my_modal_5').showModal()}>
-                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
+                    <figure><img src={posImg2} alt="car!"/></figure>
                     <div className="card-body">
-                        <h2 className="text-center font-bold text-lg text-neutral-200">Under Construction!!!</h2>
+                        <h2 className="text-center font-bold text-lg text-neutral-200">POS with Inventory System</h2>
                     </div>
                 </div>
 
                 <dialog id="my_modal_5" className="modal card-bottom sm:card-middle">
-                    <div className="card lg:card-side bg-gray-800 shadow-xl">
-                        <figure><img src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/></figure>
-                        <div className="card-body">
+                <div className="card mx-4 h-[550px] lg:card-side bg-gray-800 shadow-xl">
+                        <figure>
+                            <div className="carousel w-full sm:w-[1000px]">
+                                <div id="pos1" className="carousel-item relative w-full">
+                                    <img
+                                    src={posImg1}
+                                    className="w-full" />
+                                    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                    <a href="#pos3" className="btn btn-circle">❮</a>
+                                    <a href="#pos2" className="btn btn-circle">❯</a>
+                                    </div>
+                                </div>
+                                <div id="pos2" className="carousel-item relative w-full">
+                                    <img
+                                    src={posImg2}
+                                    className="w-full" />
+                                    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                    <a href="#pos1" className="btn btn-circle">❮</a>
+                                    <a href="#pos3" className="btn btn-circle">❯</a>
+                                    </div>
+                                </div>
+                                <div id="pos3" className="carousel-item relative w-full">
+                                    <img
+                                    src={posImg3}
+                                    className="w-full" />
+                                    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                    <a href="#pos2" className="btn btn-circle">❮</a>
+                                    <a href="#pos1" className="btn btn-circle">❯</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                        <div className="card-body h-1 sm:h-full w-full sm:w-[400px] overflow-auto">
                         <form method="dialog">
                             <button className="btn btn-sm btn-circle absolute right-3 top-3">✕</button>
                         </form>
-                            <h2 className="card-title">Under Construction!!</h2>
-                            <p>................</p>
-                                <div className="card-actions justify-end">
+                            <h2 className="card-title font-bold">POS w/ Inventory System</h2>
+                            <p className="mt-4">I built a POS with Inventory System using MongoDB, Express.js, React.js, and Node.js to practice my main stack, MERN. This project manages sales transactions and inventory tracking efficiently. It includes features such as product management, sales reporting, and real-time inventory updates. The system leverages the MERN stack to ensure a robust and scalable solution, enhancing my skills in full-stack development, database management, and API integration. (This project is still in progress.)</p>
+                                <div className="flex flex-wrap gap-2 mt-4 mb-4 sm:mb-[30px]">
+                                    <button className="btn btn-active btn-neutral">React JS</button>
+                                    <button className="btn btn-active btn-neutral">Node JS</button>
+                                    <button className="btn btn-active btn-neutral">Monggo DB</button>
+                                    <button className="btn btn-active btn-neutral">Express JS</button>
+                                    <button className="btn btn-active btn-neutral">Tailwind</button>
                                 </div>
+                            <div className="card-actions justify-end">
+                                <a href="https://imraffy14.github.io/ColorCraft.co/"><button className="btn btn-active h-[50px] w-[150px]" >Demo</button></a>
+                            </div>
                         </div>
                     </div>
                 </dialog>
 
-                <div className="card w-[280px] h-[280px] lg:w-[380px] lg:h-[280px] bg-neutral-800 hover:scale-105 duration-500 cursor-pointer my-4" onClick={()=>document.getElementById('my_modal_6').showModal()}>
-                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
-                    <div className="card-body">
-                        <h2 className="text-center font-bold text-lg text-neutral-200">Under Construction!!!</h2>
-                    </div>
-                </div>
 
-                <dialog id="my_modal_6" className="modal card-bottom sm:card-middle">
-                    <div className="card lg:card-side bg-gray-800 shadow-xl">
-                        <figure><img src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/></figure>
-                        <div className="card-body">
-                        <form method="dialog">
-                            <button className="btn btn-sm btn-circle absolute right-3 top-3">✕</button>
-                        </form>
-                            <h2 className="card-title">Under Construction!!</h2>
-                            <p>................</p>
-                                <div className="card-actions justify-end">
-                                </div>
-                        </div>
-                    </div>
-                </dialog>
                 <div className="my-[400px]"> 
             <section id="section4"></section> 
           </div>
