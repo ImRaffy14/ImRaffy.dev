@@ -291,7 +291,7 @@ function Projects ({isLight}){
                                     <button className="btn btn-active btn-neutral">Tailwind</button>
                                 </div>
                             <div className="card-actions justify-end">
-                                <a href="https://imraffy14.github.io/ColorCraft.co/"><button className="btn btn-active h-[50px] w-[150px]" >Demo</button></a>
+                                
                             </div>
                         </div>
                     </div>

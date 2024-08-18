@@ -63,7 +63,7 @@ function Education({isLight}){
                             </div>
                         </div>
                         <div className="text-lg font-black">Bestlink College of the Philippines</div>
-                        <p className={`${isLight ? `text-gray-700` : `text-neutral-300`}`}>Advanced into the second year of academic studies. Deepened understanding of web development technologies. Delved into server-side scripting with PHP and database management using MySQL. Successfully completed projects involving dynamic web applications. Expanding expertise in modern web development frameworks. Focusing on React JS and exploring other frontend frameworks. Actively participating in collaborative projects and seeking opportunities for practical application of knowledge.</p>
+                        <p className={`${isLight ? `text-gray-700` : `text-neutral-300`}`}>In my fourth year at Bestlink College of the Philippines, I’ve focused on the MERN stack (MongoDB, Express.js, React.js, Node.js) to advance my web development skills. I am leading our capstone project as Scrum Master, Project Manager, and Full Stack Developer. My current work involves developing dynamic web applications and engaging in collaborative projects, constantly applying and expanding my expertise in real-world scenarios.</p>
                         </div>
                         <hr />
                     </li>

@@ -10,7 +10,7 @@ function Contents({isLight}) {
         <div className="flex flex-col justify-center h-full mx-2 font-secularOne">
           <h1 className={`text-5xl xl:text-8xl lg:text-6xl md:text-8xl text-center lg:text-left font-bold ${isLight ? 'text-gray-800' : ''}`}>Hey there! I'm <span className="text-teal-500">Raffy Uanan</span></h1>
           <br/>
-          <p className={`text-xl md:text-xl text-center lg:text-left xl:mr-32 lg:mr-10 md:mx-32 lg:mx-0 ${isLight ? 'text-gray-800' : ''}`}>A passionate third-year BSIT major in Information Management student, currently honing my skills to become a future Full Stack Developer. Based in the Philippines, I'm on an exciting journey to merge my love for technology with my knack for innovation.</p>
+          <p className={`text-xl md:text-xl text-center lg:text-left xl:mr-32 lg:mr-10 md:mx-32 lg:mx-0 ${isLight ? 'text-gray-800' : ''}`}>A passionate fourth-year BSIT major in Information Management student, currently honing my skills to become a future Full Stack Developer. Based in the Philippines, I'm on an exciting journey to merge my love for technology with my knack for innovation.</p>
           <br/>
           <div className="flex justify-center lg:justify-start space-x-5">
           <Link
