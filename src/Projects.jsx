@@ -172,7 +172,7 @@ function Projects ({isLight}){
                 </div>
 
                 <dialog id="my_modal_3" className="modal card-bottom sm:card-middle">
-                    <div className="card lg:card-side h-[550px] bg-gray-800 shadow-xl">
+                    <div className="card mx-4 lg:card-side h-[550px] bg-gray-800 shadow-xl">
                         <figure>
                             <div className="carousel w-full sm:w-[900px]">
                                 <div id="rps1" className="carousel-item relative w-full">
@@ -208,7 +208,7 @@ function Projects ({isLight}){
                 </div>
 
                 <dialog id="my_modal_4" className="modal card-bottom sm:card-middle">
-                    <div className="card lg:card-side bg-gray-800 shadow-xl">
+                    <div className="card mx-4 lg:card-side bg-gray-800 shadow-xl">
                     <figure>
                             <div className="carousel w-full sm:w-[900px]">
                                 <div id="rps1" className="carousel-item relative w-full">
@@ -218,7 +218,7 @@ function Projects ({isLight}){
                                 </div>
                             </div>
                         </figure>
-                        <div className="card-body h-1 sm:h-full w-full sm:w-[400px] overflow-auto sm:overflow-hidden">
+                        <div className="card-body h-[400px] sm:h-full w-full sm:w-[400px] overflow-auto sm:overflow-hidden">
                         <form method="dialog">
                             <button className="btn btn-sm btn-circle absolute right-3 top-3">✕</button>
                         </form>
